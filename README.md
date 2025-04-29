@@ -43,3 +43,25 @@ public class ExerciciosMetodos {
     }
 }
 ```
+```java
+public class ExerciciosMetodos {
+
+    public static void main(String[] args) {
+        Scanner ler = new Scanner(System.in);
+        String s1, s2;
+        System.out.println("Digite um numero");
+        s1 = ler.nextLine();
+        System.out.println("Digite o segundo numero");
+        s2 = ler.nextLine();
+        Comparacao(s1, s2);
+    }
+
+    public static void Comparacao(String x, String y) {
+        if (x.equals(y)) {
+            System.out.println("Sao iguais");
+        } else {
+            System.out.println("Nao sao iguais");
+        }
+    }
+}
+```
