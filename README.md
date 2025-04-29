@@ -21,3 +21,25 @@ public class ExerciciosMetodos {
 }
 ```
 # Questao 2
+```java
+public class ExerciciosMetodos {
+
+    public static void main(String[] args) {
+        Scanner ler = new Scanner(System.in);
+        int n1, n2;
+        System.out.println("Digite o primeiro valor");
+        n1 = ler.nextInt();
+        System.out.println("Digite o segundo valor");
+        n2 = ler.nextInt();
+        NumeroInteiro(n1, n2);
+    }
+
+    public static void NumeroInteiro(int n1, int n2) {
+        if (n1 > n2) {
+            System.out.println("Primeiro valor e maior" + n1);
+        } else {
+            System.out.println("Segundo valor e maior" + n2);
+        }
+    }
+}
+```
