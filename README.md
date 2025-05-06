@@ -47,21 +47,27 @@ public class ExerciciosMetodos {
 public class ExerciciosMetodos {
 
     public static void main(String[] args) {
+  
+public class Desafio7 {
+
+    public static void main(String[] args) {
         Scanner ler = new Scanner(System.in);
         String s1, s2;
-        System.out.println("Digite um numero");
+        System.out.println("Digite uma palavra:");
         s1 = ler.nextLine();
-        System.out.println("Digite o segundo numero");
+        System.out.println("Digite uma palavra:");
         s2 = ler.nextLine();
-        Comparacao(s1, s2);
+        Compara(s1, s2);
+
     }
 
-    public static void Comparacao(String x, String y) {
+    public static void Compara(String x, String y) {
         if (x.equals(y)) {
             System.out.println("Sao iguais");
         } else {
             System.out.println("Nao sao iguais");
         }
+
     }
 }
 ```
