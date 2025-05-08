@@ -125,27 +125,34 @@ public class Desafio7 {
 ```
 # Questao 6
 ```java
-package desafio8;
+package desafio7;
 
 import java.util.Scanner;
 
-public class Desafio8 {
+/**
+ * 6. Crie um método que recebe por parâmetro um tipo double e retorna um tipo
+ * double também, calculando a conversão de temperatura de graus Celsius para
+ * Fahrenheit – a fórmula para a conversão é (celsius * 1.8) + 32
+ *
+ * @author Henrique
+ */
+public class Desafio7 {
 
     public static void main(String[] args) {
-
         Scanner ler = new Scanner(System.in);
-        double celsius;
-        System.out.println("Digite um valor de celsius:");
+        double celsius, formulaF;
+        System.out.println("Digite um valor:");
         celsius = ler.nextDouble();
-        System.out.println("A temperatura convertida para /f é:"+ conversor(celsius));
-       
+        System.out.println("A temperatura de Celsius convertida para Fahrenheit é:"+conversor(celsius));
     }
 
-    public static double conversor(double temp) {
-        return (temp * 1.8 + 32);
-
+    public static double conversor(double c) {
+        double formulaF = (c * 1.8) + 32;
+        return formulaF;
     }
+
 }
+
 ```
 #Questao 7
 ```java
