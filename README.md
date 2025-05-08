@@ -125,23 +125,26 @@ public class Desafio7 {
 ```
 # Questao 6
 ```java
-package desafio7;
-public class Desafio7 {
+package desafio8;
+
+import java.util.Scanner;
+
+public class Desafio8 {
 
     public static void main(String[] args) {
+
         Scanner ler = new Scanner(System.in);
-        double celsius, formulaF;
-        System.out.println("Digite um valor:");
+        double celsius;
+        System.out.println("Digite um valor de celsius:");
         celsius = ler.nextDouble();
-        conversor(celsius);
+        System.out.println("A temperatura convertida para /f é:"+ conversor(celsius));
+       
     }
 
-    public static double conversor(double c) {
-        double formulaF = (c * 1.8) + 32;
-        System.out.println("A temperatura de Celsius para Fahrenheit:" + formulaF + "°F");
-        return formulaF;
-    }
+    public static double conversor(double temp) {
+        return (temp * 1.8 + 32);
 
+    }
 }
 ```
 #Questao 7
