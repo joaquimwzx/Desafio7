@@ -129,13 +129,6 @@ package desafio7;
 
 import java.util.Scanner;
 
-/**
- * 6. Crie um método que recebe por parâmetro um tipo double e retorna um tipo
- * double também, calculando a conversão de temperatura de graus Celsius para
- * Fahrenheit – a fórmula para a conversão é (celsius * 1.8) + 32
- *
- * @author Henrique
- */
 public class Desafio7 {
 
     public static void main(String[] args) {
